@@ -1,0 +1,249 @@
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px !important;
+  }
+}
+body {
+  margin: 0 auto;
+  width: 15rem;
+  min-width: 320px;
+  max-width: 750px;
+  height: 2000px;
+}
+#app {
+  position: fixed;
+  z-index: 99;
+  right: 0.2rem;
+  bottom: 40%;
+}
+#app a {
+  display: block;
+}
+#app a img {
+  width: 2rem;
+  height: 2.9rem;
+}
+#headDom {
+  position: relative;
+}
+#headDom-bg {
+  width: 15rem;
+  height: 2rem;
+}
+#open-app {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 3.8rem;
+  height: 1.8rem;
+}
+#del-hd {
+  position: absolute;
+  left: 0.48rem;
+  top: 0.6rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  background: url(../images/x.png) no-repeat;
+  background-size: 0.6rem 0.6rem;
+}
+#nav-wrapper {
+  position: relative;
+  padding-bottom: 0.28rem;
+}
+.index-bg1 {
+  position: absolute;
+  top: -1.6rem;
+  left: 0;
+  z-index: -10;
+}
+.index-bg1 img {
+  width: 15rem;
+  height: 5.2rem;
+}
+.nav-user {
+  display: flex;
+  margin: 0 0.68rem;
+  height: 1.76rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-user .fenlei {
+  display: block;
+  width: 0.72rem;
+  height: 1.2rem;
+}
+.nav-user .fenlei img {
+  width: 0.72rem;
+  height: 1.2rem;
+}
+.nav-user .middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11.4rem;
+  height: 1.76rem;
+}
+.nav-user .middle a {
+  display: block;
+}
+.nav-user .middle a img {
+  width: 7.8rem;
+  height: 1.52rem;
+}
+.nav-user .user a {
+  display: block;
+}
+.nav-user .user a img {
+  width: 0.72rem;
+  height: 1.2rem;
+}
+.nav-user .user .wode {
+  display: none;
+}
+.search {
+  margin: 0.28rem 0.48rem 0;
+  height: 1.28rem;
+  border-radius: 0.6rem;
+  background-color: #fff;
+}
+.search a {
+  position: relative;
+  display: block;
+}
+.search a i {
+  position: absolute;
+  left: 0.4rem;
+  top: 0.3rem;
+  width: 0.72rem;
+  height: 0.72rem;
+  background: url(../images/fangda-icon.png) no-repeat;
+  background-size: 0.72rem 0.72rem;
+}
+.search a span {
+  position: absolute;
+  left: 1.3rem;
+  top: 0.2rem;
+  font-size: 0.56rem;
+  color: #999;
+}
+#focus {
+  position: relative;
+  height: 4.58rem;
+}
+#focus .bg2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  width: 15rem;
+  height: 4.58rem;
+}
+.focus-cn {
+  margin: 0 0.48rem;
+  height: 4.58rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.focus-cn ul {
+  width: 84.24rem;
+  height: 4.58rem;
+  animation: focus 15s linear infinite;
+}
+.focus-cn ul li {
+  float: left;
+}
+.focus-cn ul li a {
+  display: block;
+  width: 14.04rem;
+  height: 4.58rem;
+  overflow: hidden;
+}
+.focus-cn ul li a img {
+  margin-top: -2.78rem;
+  width: 14.04rem;
+  height: 7.36rem;
+}
+@keyframes focus {
+  0% {
+    transform: translateX(0);
+  }
+  18% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-14.04rem);
+  }
+  38% {
+    transform: translateX(-14.04rem);
+  }
+  40% {
+    transform: translateX(-28.08rem);
+  }
+  58% {
+    transform: translateX(-28.08rem);
+  }
+  60% {
+    transform: translateX(-42.12rem);
+  }
+  78% {
+    transform: translateX(-42.12rem);
+  }
+  80% {
+    transform: translateX(-56.16rem);
+  }
+  98% {
+    transform: translateX(-56.16rem);
+  }
+  100% {
+    transform: translateX(-70.2rem);
+  }
+}
+#commodity-rem {
+  height: 5.615rem;
+}
+#commodity-rem a {
+  display: block;
+  float: left;
+}
+#commodity-rem a img {
+  width: 5rem;
+  height: 5.615rem;
+}
+#main-nav {
+  display: flex;
+  width: 15rem;
+  height: 5.68rem;
+  flex-wrap: wrap;
+}
+#main-nav .main-nav-container {
+  flex: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.44rem;
+  color: #666;
+}
+#main-nav .main-nav-container img {
+  width: 1.68rem;
+  height: 1.68rem;
+}
+#gift-bner {
+  margin-top: 0.5rem;
+  display: flex;
+  width: 100%;
+  height: 4.68rem;
+  justify-content: space-between;
+}
+#gift-bner a:nth-child(1) img {
+  width: 7.47rem;
+  height: 4.68rem;
+}
+#gift-bner a:nth-child(2) img {
+  width: 3.725rem;
+  height: 4.68rem;
+}
+#gift-bner a:nth-child(3) img {
+  width: 3.725rem;
+  height: 4.68rem;
+}
